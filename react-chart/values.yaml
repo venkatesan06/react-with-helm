@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: venkatesan06/my-nginx
+  tag: "2.0.0"
+service:
+  type: LoadBalancer
+  port: 80
+
+run: react
+ 
