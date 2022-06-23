@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: venkatesan06/my-nginx
+  repository: venkatesan06/git-action
   tag: "2.0.0"
 service:
   type: LoadBalancer
